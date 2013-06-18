@@ -26,5 +26,5 @@ Jezzz For his Hours of help :D
 
 Donate
 ------
-BTC: 15SL2gUaqcDU5bFpXMViy3H31MRUQTMntt
-LTC: LaRDkWvpNn7YTFmZn7yg3FH3KcutxkMnQv
+`BTC: 15SL2gUaqcDU5bFpXMViy3H31MRUQTMntt`
+`LTC: LaRDkWvpNn7YTFmZn7yg3FH3KcutxkMnQv`
