@@ -4,6 +4,7 @@ from pga0 import *
 from cgminerversion import *
 from cgminerconfig import *
 from coin import *
+from pga1 import *
 
 print "CGMiner:"
 print "Cgminer Version:", cg_version()
@@ -27,4 +28,12 @@ print p0_mhs(), "MH/s"
 print "Accepted Shares:", p0_accepted()
 print "Rejected Shares:", p0_rejected()
 print "Hardware Errors:", p0_hwerrors()
-print "Utility:", p0_utility()
+print "Utility:", p0_utility(),"/m"
+print ""
+
+print "PGA 1"
+print p1_mhs(), "MH/s"
+print "Accepted Shares:", p1_accepted()
+print "Rejected Shares:", p1_rejected()
+print "Hardware Errors:", p1_hwerrors()
+print "Utility:", p1_utility(),"/m"
