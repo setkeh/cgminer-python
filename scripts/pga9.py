@@ -2,6 +2,7 @@
 
 import socket
 import json
+from settings import *
 
 def linesplit(socket):
 	buffer = socket.recv(4096)
@@ -16,7 +17,7 @@ def linesplit(socket):
 				return buffer
 
 s = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-s.connect(('192.168.1.6',4028))
+s.connect((minerip(),minerport()))
 s.send(json.dumps({"command":"pga","parameter":"9"}))    
 response = linesplit(s)
 response = response.replace('\x00','')
