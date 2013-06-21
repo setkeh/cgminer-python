@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>{{ title }}</title>
+	</head>
+	<body>
+	<center>
+		<h1>{{ page_title }}</h1>
+		<p>CGminer Version: {{ cgversion }} | API Version: {{ apiver }}</p>
+		<p><b>CGminer General Stats</b></p>
+		<p>PGA Count: {{ pgacount }} | ASIC Count: {{ asiccount }} | Pool Count: {{ poolcount }}<br>Pool Stratergy: {{ poolstrat }} | OS: {{ os }}</p>
+		<p><b>Bitcoin Stats</b></p>
+		<p>Hash Method: {{ hashmeth }} | Long Poll: {{ Longpoll }} | Difficulty: {{ diff }}<br>Current Block Hash: {{ cbh }}</p>
+		<p><b>Fpga Statistics</b></p>
+		<table border="1">
+			<tr>
+				<th>FPGA 0</th>
+				<th>FPGA 1</th>
+				<th>FPGA 2</th>
+				<th>FPGA 3</th>
+				<th>FPGA 4</th>
+			</tr>
+			<tr>
+				<td>
+				    HashRate: {{ pga0_hr }}<br>
+				    Accepted Shares: {{ pga0_acc }}<br>
+				    Rejected Shares: {{ pga0_rej }}<br>
+				    Hardware Errors: {{ pga0_err }}<br>
+				    Shares Per Min:  {{ pga0_util }}<br>
+				</td>
+				<td>
+				    HashRate: {{ pga1_hr }}<br>
+				    Accepted Shares: {{ pga1_acc }}<br>
+				    Rejected Shares: {{ pga1_rej }}<br>
+				    Hardware Errors: {{ pga1_err }}<br>
+				    Shares Per Min:  {{ pga1_util }}<br>
+			       </td>
+			        <td>
+				    HashRate: {{ pga2_hr }}<br>
+				    Accepted Shares: {{ pga2_acc }}<br>
+				    Rejected Shares: {{ pga2_rej }}<br>
+				    Hardware Errors: {{ pga2_err }}<br>
+				    Shares Per Min:  {{ pga2_util }}<br>
+				</td>
+			        <td>
+				    HashRate: {{ pga3_hr }}<br>
+				    Accepted Shares: {{ pga3_acc }}<br>
+				    Rejected Shares: {{ pga3_rej }}<br>
+				    Hardware Errors: {{ pga3_err }}<br>
+				    Shares Per Min:  {{ pga3_util }}<br>
+  			        </td>
+			        <td>
+				    HashRate: {{ pga4_hr }}<br>
+				    Accepted Shares: {{ pga4_acc }}<br>
+				    Rejected Shares: {{ pga4_rej }}<br>
+				    Hardware Errors: {{ pga4_err }}<br>
+				    Shares Per Min:  {{ pga4_util }}<br>
+				</td>
+			</tr>
+		</table>
+		<table border="1">
+			<tr>
+				<th>FPGA 5</th>
+				<th>FPGA 6</th>
+				<th>FPGA 7</th>
+				<th>FPGA 8</th>
+				<th>FPGA 9</th>
+			</tr>
+			<tr>
+				<td>
+				    HashRate: {{ pga5_hr }}<br>
+				    Accepted Shares: {{ pga5_acc }}<br>
+				    Rejected Shares: {{ pga5_rej }}<br>
+				    Hardware Errors: {{ pga5_err }}<br>
+				    Shares Per Min:  {{ pga5_util }}<br>
+				</td>
+				<td>
+				    HashRate: {{ pga6_hr }}<br>
+				    Accepted Shares: {{ pga6_acc }}<br>
+				    Rejected Shares: {{ pga6_rej }}<br>
+				    Hardware Errors: {{ pga6_err }}<br>
+				    Shares Per Min:  {{ pga6_util }}<br>
+			       </td>
+			        <td>
+				    HashRate: {{ pga7_hr }}<br>
+				    Accepted Shares: {{ pga7_acc }}<br>
+				    Rejected Shares: {{ pga7_rej }}<br>
+				    Hardware Errors: {{ pga7_err }}<br>
+				    Shares Per Min:  {{ pga7_util }}<br>
+				</td>
+			        <td>
+				    HashRate: {{ pga8_hr }}<br>
+				    Accepted Shares: {{ pga8_acc }}<br>
+				    Rejected Shares: {{ pga8_rej }}<br>
+				    Hardware Errors: {{ pga8_err }}<br>
+				    Shares Per Min:  {{ pga8_util }}<br>
+  			        </td>
+			        <td>
+				    HashRate: {{ pga9_hr }}<br>
+				    Accepted Shares: {{ pga9_acc }}<br>
+				    Rejected Shares: {{ pga9_rej }}<br>
+				    Hardware Errors: {{ pga9_err }}<br>
+				    Shares Per Min:  {{ pga9_util }}<br>
+				</td>
+			</tr>
+		</table>
+	</center>
+	</body>
+</html>
