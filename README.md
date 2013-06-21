@@ -20,6 +20,17 @@ TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
 
 Cgminer is Subject to its own licence this only applies to this code.
 
+INSTALLATION
+------------
+Deps: 
+`Jinja2: http://jinja.pocoo.org/`
+`Cherrypy: http://www.cherrypy.org/`
+
+Edit the settings.py and main.conf to your desired settings.
+Then run:
+`python2.7 main.py`
+Note: If you use port 80 you will need to use sudo or root on nix systems because it is a restricted port (Has Not Been Tested on Windoze)
+
 Thanks
 ------
 Jezzz For his Hours of help :D
